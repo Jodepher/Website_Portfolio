@@ -1,0 +1,29 @@
+
+{
+    "portfolio": [
+        {
+            "title": "Project 1",
+            "img": "website.jpg",
+            "desc": "Solo project to build own website",
+            "github": "https://github.com/Jodepher",
+            "live": "#"
+            
+        },
+
+        {
+            "title": "Project 2",
+            "img": "coding.jpg",
+            "desc": "Something very impressive",
+            "github": "https://github.com/Jodepher",
+            "live": "#"
+        },
+
+        {
+            "title": "Project 3",
+            "img": "devices.jpg",
+            "desc": "Another very impressive thing",
+            "github": "https://github.com/Jodepher",
+            "live": "#"
+        }
+    ]
+}

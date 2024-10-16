@@ -1,0 +1,302 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(182, 192, 161);
+    margin: 0;
+}
+
+a {
+    color: rgb(50, 65, 50);
+}
+
+
+h1 {
+    color: rgb(41, 47, 41);
+    font-size: 4rem;
+    padding: 15px;
+}
+
+.caption {
+    color: rgb(41, 47, 41);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.opener {
+    text-align: center;
+    margin-top: 280px;
+    margin-bottom: 250px;
+}
+
+.navbar {
+    background-color: rgb(198, 206, 183);
+    opacity: 95%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+#nav-links {
+    display: flex; 
+    gap: 50px;
+    justify-content: space-between; 
+}
+
+#nav-links a {
+    color: rgb(50, 65, 50);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s;
+}
+
+#nav-links a:hover {
+    color: tomato;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+    opacity: 80%;
+}
+
+.welcome {
+    font-size: 3rem;
+    margin-right: 280px;
+    color: rgb(33, 40, 33);
+}
+
+.container {
+    background-color: rgb(202, 180, 160);
+    padding: 10px;
+    border: 1px solid rgb(207, 131, 99);
+    border-radius: 10px;
+    margin: 120px 370px;
+    opacity: 80%;
+    text-align: right;
+}
+
+#welcome-p {
+    color: rgb(53, 55, 53);
+    margin-right: 150px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#heading {
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+#about {
+    background-color: rgb(182, 192, 161);
+    margin: 50px;
+    color: rgb(50, 65, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.text-about {
+    text-align:justify;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: rgb(41, 47, 41);
+}
+
+#book-img {
+    max-width: 600px;
+    max-height: 600px;
+    opacity: 95%;
+    border: rgb(207, 131, 99) double 1px;
+    border-radius: 20px;
+}
+
+
+#me-img {
+    max-width: 470px;
+    max-height: 470px;
+    border: 1px rgb(207, 131, 99) double;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(41, 47, 41);
+    padding:10px;
+    margin: 10px;
+}
+
+li:nth-child(1)::before{
+    content: "📚" ;
+}
+
+li:nth-child(2)::before{
+    content: "🎮" ;
+}
+
+li:nth-child(3)::before{
+    content: "✈️" ;
+}
+
+
+
+#portfolio {
+    background-color: rgb(198, 206, 183);
+    color: rgb(50, 65, 50);
+    padding: 90px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#portfolio-json {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#portfolio img {
+    max-width: 400px;
+    max-height: 400px;
+    border: 1px rgb(207, 131, 99) double;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#portfolio i {
+   font-size: 40px;
+}
+
+#portfolio a:hover {
+    color: tomato;
+}
+
+
+#contact {
+    position:relative;
+    color: rgb(50, 65, 50);
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    padding:100px;
+    gap: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.contact-links a {
+    font-size: 2rem;
+    gap: 30px;
+    width: 520px;
+    color: rgb(53, 55, 53);
+    text-decoration: none;
+    font-size: 40px;
+    margin: 65px;
+    transition: 0.4s;
+}
+
+.contact-links a:hover {
+    color: tomato;
+}
+
+#contactVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    z-index:-100;
+    opacity: 55%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(53, 55, 53);
+    background-color: rgb(198, 206, 183);
+    padding: 20px;
+    gap: 10px;
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    
+    .container {
+        margin: 0;
+        opacity: 80%;
+        text-align: center;
+        padding:5px;
+    }
+    
+    #welcome-p {
+        font-size: 18px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #book-img {
+        margin-top: 50px;
+        max-width: 380px;
+        max-height: 480px;
+    }
+    
+    #me-img {
+        max-width: 470px;
+        max-height: 470px;
+    }
+
+    .text-about {
+    text-align:justify;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    }
+
+}

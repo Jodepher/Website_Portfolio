@@ -5,15 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jodie Stead</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
 
 
 </head>
 
 <body>
 
+    <nav class="navbar" id="home">
+        <div id="nav-links">
+            <a href="#home" class="go-to-home">home</a>
+            <a href="#about">about me</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </div>
+    </nav>
 
-    
 
+  
+    <section>
+
+        <div class="opener">
+            <h1>Jodie Stead</h1>
+            <p class="caption">student software developer</p>
+        </div>
+
+        <div class="video">
+            <video autoplay muted loop id="myVideo">
+            <source src="Background.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div class="container">
+            <h2 class="welcome"></i>hello there  <i class="fa-regular fa-comment"></i></h2>
+            <small id="welcome-p">welcome to my developer page!</small>
+        </div>
+
+    </section>
+
+    <main id="about">
+       
+        <img id="book-img" src="book.jpg" alt="a book being held open by a woman reading it with orange leaves inside and an autumnal background" />
+        
+            <div class="text-about">
+                <h2 id="heading">about me <i class="fa-solid fa-arrow-right"></i></h2>
+                <p>Hi I'm Jodie and I am an aspiring Software Developer!<br><br>At the moment I am currently studying with <strong><a href="https://io-academy.uk" target="blank">iO Academy</a></strong> and looking to start a junior role in the new year. <br><br> This career change has been spurred on by my interest in keen learning and the excitement of endless possibilites held by coding.<br><br>Along with coding, some of my favourite hobbies include:
+                    <ul>
+                        <li> Reading</li>
+                        <li> Video Games</li>
+                        <li> Travel</li>
+                    </ul>
+                </p>
+
+            </div>
+        <img id="me-img" src="wedding.jpg" alt="a woman in a copper dress smiling for a photo"/>
+
+    </main> 
+
+        <section>
+            <div id="portfolio">
+                <h2 id="heading">portfolio</h2>
+                <p>please find a list of completed projects in my portfolio below</p>
+                    <div id="portfolio-json"></div>
+            </div>
+        </section>
     
+    <section>
+        <div id="contact">
+            <h2 id="heading">contact</h2>
+            <p><i class="fa-solid fa-house"></i> Bristol based<br><br><br>several ways to contact me below:</p>
+
+            <div class="contact-links">
+                <a href="jodepher.dev@gmail.com" target="blank"><i class="fa-regular fa-envelope"></i></a>
+                <a href="www.linkedin.com/in/jodie-stead-133806198" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/jodepher/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/jodepher" target="blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/Jodepher?tab=overview&from=2024-07-01&to=2024-07-31" target="blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <div class="contactVideo">
+                <video autoplay muted loop id="contactVideo">
+                <source src="contact.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        &copy; Copyright 2024
+    </footer>
+
+
+
 </body>
 </html>
