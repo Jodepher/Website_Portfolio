@@ -2,27 +2,27 @@
 {
     "portfolio": [
         {
-            "title": "Project 1",
-            "img": "website.jpg",
-            "desc": "Solo project to build own website",
-            "github": "https://github.com/Jodepher",
-            "live": "#"
+            "title": "Email Client",
+            "img": "email_client.png",
+            "desc": "Group project creating an Email Client Service using React, JavaScript, HTML and Vite.<br><br>In this project we worked together to build a front-end using React, to match a supplied design with a pre-exisiting API back-end. The site has a pages for the inbox, sent and deleted emails, as well as the ability to create, delete and search for emails.",
+            "github": "https://github.com/Jodepher/Email_Client",
+            "live": "https://2024-red-pandas-email-client.dev.io-academy.uk/"
             
         },
 
         {
-            "title": "Project 2",
-            "img": "coding.jpg",
-            "desc": "Something very impressive",
-            "github": "https://github.com/Jodepher",
-            "live": "#"
+            "title": "Project Management System",
+            "img": "project-management.png",
+            "desc": "Group project creating a Project Management System using PHP and HTML.<br><br>In this project we were given the pre-built front-end and tasked with building the back-end using Object Oreiented Programming in PHP. Within each project, we filtered the tasks to each user and added individual deadlines, which would turn red if overdue.",
+            "github": "https://github.com/Jodepher/Project-Management-System",
+            "live": "https://2024-racoons-project-management.dev.io-academy.uk"
         },
 
         {
-            "title": "Project 3",
-            "img": "devices.jpg",
-            "desc": "Another very impressive thing",
-            "github": "https://github.com/Jodepher",
+            "title": "Hotel Booking API",
+            "img": "hotel-booking.png",
+            "desc": "This was our final group project to create an API back-end for a Hotel Booking System.<br><br>Within this project, the front-end was supplied using React and we used Laravel and PHP to build the API. We created the rooms, bookings and types using seeders with a MYSQL database. Then we added the ability to book a room, filter bookings by room, and working out the average length of stay per room.",
+            "github": "https://github.com/Jodepher/Hotel-Booking-System-API?tab=readme-ov-file#readme",
             "live": "#"
         }
     ]

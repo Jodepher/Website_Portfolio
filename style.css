@@ -81,7 +81,7 @@ h1 {
 }
 
 #myVideo {
-    min-width: 100%;
+    min-width: 130%;
     z-index:-100;
     opacity: 80%;
 }
@@ -146,13 +146,14 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: rgb(41, 47, 41);
 }
 
-#book-img {
-    max-width: 600px;
-    max-height: 600px;
+#grad-img {
+    max-width: 450px;
+    max-height: 450px;
+    margin-top: 100px;
     opacity: 95%;
     border: rgb(207, 131, 99) double 1px;
     border-radius: 20px;
@@ -201,10 +202,14 @@ li:nth-child(3)::before{
 
 #portfolio-json {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.portfolio-head {
+    margin-top: 55px;
 }
 
 #portfolio img {
@@ -222,6 +227,7 @@ li:nth-child(3)::before{
 
 #portfolio a:hover {
     color: tomato;
+
 }
 
 
@@ -284,17 +290,68 @@ footer {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 860px) {
     
-    .container {
-        margin: 0;
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        max-width:fit-content;
+        z-index: 1000; 
+    }
+
+    #nav-links {
+        max-width:fit-content;
+        gap: 10px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .caption {
+        text-align: center;
+        margin: 0px;
+    }
+
+    #myVideo {
+        position: relative;
+        z-index:-100;
         opacity: 80%;
+        object-fit: fill;
+    }
+
+    .welcome {
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0px;
+    }
+    
+    .container-centerer {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        opacity: 80%;
+        margin: 10px;
         text-align: center;
         padding:5px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
     #welcome-p {
         font-size: 18px;
+        padding-left: 20px;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
@@ -304,9 +361,17 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 0;
+        margin: 10px;
     }
 
-    #book-img {
+    #heading {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #grad-img {
         margin-top: 50px;
         max-width: 380px;
         max-height: 480px;
