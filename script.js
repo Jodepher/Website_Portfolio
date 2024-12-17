@@ -12,14 +12,16 @@
                 <h2 class="portfolio-head">${portfolio.title}</h2>
                 <img src="${portfolio.img}" alt="" />
                 <p>${portfolio.desc}</p>
+                                </div>
                 <a href="${portfolio.github}" target="blank"><i class="fa-brands fa-github"></i></a>
                 <a href="${portfolio.live}" target="blank">
                 <i class="fa-solid fa-link"></i>
                 </a>
-                </div>
+
                 `
         })
         })
+
 
 
 
