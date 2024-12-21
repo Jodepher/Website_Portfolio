@@ -23,7 +23,7 @@
             "img": "hotel-booking.png",
             "desc": "This was our final group project to create an API back-end for a Hotel Booking System.<br><br>Within this project, the front-end was supplied using React and we used Laravel and PHP to build the API. We created the rooms, bookings and types using seeders with a MYSQL database. Then we added the ability to book a room, filter bookings by room, and working out the average length of stay per room.",
             "github": "https://github.com/Jodepher/Hotel-Booking-System-API?tab=readme-ov-file#readme",
-            "live": "#"
+            "live": "https://2024-rainfrogs-hotel-fe.dev.io-academy.uk/"
         }
     ]
 }
