@@ -257,6 +257,12 @@ li:nth-child(3)::before{
     transition: 0.4s;
 }
 
+.contact-links .email {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 .contact-links a:hover {
     color: tomato;
 }
