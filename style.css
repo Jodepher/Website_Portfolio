@@ -191,6 +191,14 @@ li:nth-child(3)::before{
     content: "✈️" ;
 }
 
+li:nth-child(4)::before{
+    content: "🎲" ;
+}
+
+li:nth-child(5)::before{
+    content: "🧘🏻‍♀️" ;
+}
+
 
 
 #portfolio {
